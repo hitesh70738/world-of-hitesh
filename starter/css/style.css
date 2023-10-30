@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: white;
+}
+
+header{
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  /* border-style: dashed; */
+  font-size: 25px;
+  background-color: #E4E4DE;
+  
+}
+
+header h1 {
+  display: inline-block;
+  /* border-style: dashed; */
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  /* border-style: dotted; */
+  float: right;
+  padding-top: 50px;
+  font-size: 20px;
+  width: 45%;
+  margin-right: 20px;
+}
+
+/* 
+header nav a {
+  margin-right: 20px;
+} */
+
+.hero-banner {
+  padding-top: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  /* border-style: dashed; */
+  font-size: 25px;
+  background-color: #C4C5BA;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+/* removed #banner for h2 */
+.hero-banner h2 {
+  margin-right: 50px;
+  
+}
+
+/* .hero-banner #banner {
+  display: flex;
+  align-content: center;
+  border-style: double;
+  float: right;
+  
+}  */
+
+main {
+  background-color: pink;
+  height: 1200px;
+}
+
+/* .page-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.page-section {
+  display: flex;
+  border-style: dotted;
+}
+
+.aside {
+  width: 25vw;
+  /* border-style: dotted; */
+  padding-left: 20px;
+  color: yellow;
+  font-size:50px;
+  border-right: 2px solid black;
+}
+
+
+
+.name {
+  margin-left: 250px;
+  width: 50vw;
+  /* border-style: dotted; */
+}
+
+.work-card {
+  margin: 20px;
+  display: grid;
+  min-height: 50px;
+  height: 100vh;
+  /* border: 1px solid black; */
+  width: 1200px;
+  /* grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-template-columns: 1fr 1fr; */
+  grid-template-areas: 
+  "card1 card1"
+  "card2 card3"
+  "card4 card5";
+}
+
+#card1 {
+  margin: auto;
+  grid-area: card1;
+  height: 400px;
+  width: 800px;
+  
+}
+
+#title1 {
+  position: relative;
+  bottom: 100px;
+  color: white;
+  margin-top: 5%;
+  margin-left: 62.55555%;
+  font-family: "Lucida Console", Courier, monospace; 
+  font-size: 35px;
+}
+
+#card2  {
+  grid-area: card2;
+  margin: auto;
+  height: 150px;
+  width: 400px;
+}
+
+#title2 {
+  position: relative;
+  bottom: 40px;
+  color: white;
+  margin-left: 75%;
+  font-size: 25px;
+}
+
+#card3 {
+  grid-area: card3;
+  height: 150px;
+  width: 400px;
+  margin: auto;
+}
+#title3 {
+  position: relative;
+  bottom: 40px;
+  color: white;
+  margin-left: 75%;
+  font-size: 25px;
+}
+#card4 {
+  grid-area: card4;
+  height: 150px;
+  width: 400px;
+  margin: auto;
+}
+
+
+
+#card5 {
+  grid-area: card5;
+  height: 150px;
+  width: 400px;
+  margin: auto;
+}
+
+#contact {
+  color: black;
+  font-size: 50px;
+}
+
+.contact-info {
+  border-style: dashed;
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  font-size: 20px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
