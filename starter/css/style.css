@@ -8,15 +8,17 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: white;
+  font-family: "Courier", "monospace";
 }
 
 header{
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: black;
-  /* border-style: dashed; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: "Courier", "monospace";
+  color: #FFEEDB;
+  /* border-style: dashed; */  
   font-size: 25px;
-  background-color: #E4E4DE;
+  background-color: #BA3B46;
   
 }
 
@@ -30,10 +32,15 @@ header nav {
   justify-content: space-between;
   /* border-style: dotted; */
   float: right;
-  padding-top: 50px;
+  padding-top: 80px;
   font-size: 20px;
   width: 45%;
   margin-right: 20px;
+  list-style-type: none;
+}
+
+header a {
+  color: #FFEEDB;
 }
 
 /* 
@@ -43,19 +50,20 @@ header nav a {
 
 .hero-banner {
   padding-top: 50px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: black;
+  font-family:"Courier", "monospace";
+  color: #FFEEDB;
   /* border-style: dashed; */
-  font-size: 25px;
-  background-color: #C4C5BA;
+  font-size: 50px;
+  background-color: #BA3B46;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: end;
+  padding-bottom: 50px;
 }
 
 /* removed #banner for h2 */
-.hero-banner h2 {
-  margin-right: 50px;
+.hero-banner img {
+  /* margin: auto; */
   
 }
 
@@ -68,7 +76,7 @@ header nav a {
 }  */
 
 main {
-  background-color: pink;
+  background-color: #BA3B46;
   height: 1200px;
 }
 
@@ -81,16 +89,17 @@ main {
 
 .page-section {
   display: flex;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
 
 .aside {
   width: 25vw;
   /* border-style: dotted; */
   padding-left: 20px;
-  color: yellow;
+  color: #FFEEDB;
   font-size:50px;
-  border-right: 2px solid black;
+  /* border-right: 2px solid black; */
+  font-family: "Courier", "monospace";
 }
 
 
@@ -98,6 +107,7 @@ main {
 .name {
   margin-left: 250px;
   width: 50vw;
+  color: #FFEEDB;
   /* border-style: dotted; */
 }
 
@@ -127,7 +137,7 @@ main {
 #title1 {
   position: relative;
   bottom: 100px;
-  color: white;
+  color: #FFEEDB;
   margin-top: 5%;
   margin-left: 62.55555%;
   font-family: "Lucida Console", Courier, monospace; 
@@ -144,8 +154,8 @@ main {
 #title2 {
   position: relative;
   bottom: 40px;
-  color: white;
-  margin-left: 75%;
+  color: #FFEEDB;
+  margin-left: 25%;
   font-size: 25px;
 }
 
@@ -158,8 +168,8 @@ main {
 #title3 {
   position: relative;
   bottom: 40px;
-  color: white;
-  margin-left: 75%;
+  color: #FFEEDB;
+  margin-left: 25%;
   font-size: 25px;
 }
 #card4 {
@@ -169,8 +179,6 @@ main {
   margin: auto;
 }
 
-
-
 #card5 {
   grid-area: card5;
   height: 150px;
@@ -178,18 +186,29 @@ main {
   margin: auto;
 }
 
+#contact-me {
+  margin-top: 2%;
+}
+
 #contact {
-  color: black;
+  /* border-style: dashed; */
+  color: #FFEEDB;
   font-size: 50px;
 }
 
 .contact-info {
-  border-style: dashed;
+  /* border-style: dashed; */
   width: 800px;
   display: flex;
   justify-content: space-evenly;
   margin: auto;
   font-size: 20px;
+  color: #FFEEDB;
+  list-style-type: none;
+}
+
+.contact-info a{
+  color: #FFEEDB;
 }
 
 
