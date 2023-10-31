@@ -11,12 +11,12 @@ body {
   font-family: "Courier", "monospace";
 }
 
+/*CSS for header and navigation section of the site */
+
 header{
   padding: 20px;
-  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   font-family: "Courier", "monospace";
   color: #FFEEDB;
-  /* border-style: dashed; */  
   font-size: 25px;
   background-color: #BA3B46;
   background-image: url("/starter/images/coding2.webp");
@@ -27,13 +27,11 @@ header{
 
 header h1 {
   display: inline-block;
-  /* border-style: dashed; */
 }
 
 header nav {
   display: flex;
   justify-content: space-between;
-  /* border-style: dotted; */
   float: right;
   padding-top: 80px;
   font-size: 40px;
@@ -46,16 +44,12 @@ header a {
   color: #FFEEDB;
 }
 
-/* 
-header nav a {
-  margin-right: 20px;
-} */
+/*CSS for World of hitesh section*/
 
 .hero-banner {
   padding-top: 50px;
   font-family:"Courier", "monospace";
   color: #FFEEDB;
-  /* border-style: dashed; */
   font-size: 50px;
   display: flex;
   justify-content: center;
@@ -66,16 +60,7 @@ header nav a {
   background-size: cover;
 }
 
-/* removed #banner for h2 */
-
-
-/* .hero-banner #banner {
-  display: flex;
-  align-content: center;
-  border-style: double;
-  float: right;
-  
-}  */
+/*Adding content to main secion of the site*/
 
 main {
   background-color: deepskyblue;
@@ -85,28 +70,16 @@ main {
   
 }
 
-/* .page-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-} */
-
 .page-section {
   display: flex;
   font-style: italic;
-  /* text-decoration: underline;
-  text-decoration-color: #FFEEDB; */
-  /* border-style: dotted; */
 }
 
 .aside {
   width: 25vw;
-  /* border-style: dotted; */
   padding-left: 20px;
   color: #FFEEDB;
   font-size:50px;
-  /* border-right: 2px solid black; */
   font-family: "Courier", "monospace";
   text-decoration: underline;
   text-decoration-color: #FFEEDB;
@@ -118,18 +91,17 @@ main {
   margin-left: 250px;
   width: 50vw;
   color: #FFEEDB;
-  /* border-style: dotted; */
 }
+
+
+/*Lines 99-164 CSS for the images and grid layout*/
 
 .work-card {
   margin: 20px;
   display: grid;
   min-height: 50px;
   height: 100vh;
-  /* border: 1px solid black; */
   width: 1200px;
-  /* grid-template-rows: 33.33% 33.33% 33.33%;
-  grid-template-columns: 1fr 1fr; */
   grid-template-areas: 
   "card1 card1"
   "card2 card3"
@@ -196,18 +168,18 @@ main {
   margin: auto;
 }
 
+/*CSS for footer*/
+
 #contact-me {
   margin-top: 2%;
 }
 
 #contact {
-  /* border-style: dashed; */
   color: #FFEEDB;
   font-size: 50px;
 }
 
 .contact-info {
-  /* border-style: dashed; */
   width: 800px;
   display: flex;
   justify-content: space-evenly;
