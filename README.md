@@ -26,5 +26,5 @@ https://hitesh70738.github.io/world-of-hitesh/
 Overall, this task was an excelent way to understand how to create a portfolio for myself. The material over the past two weeks has helped me greatly in helping to understand certain concepts with html and css.
 
 ## Website Image
-<img src="./starter/images/final-image.png">
+<img src="./assets/images/final-image.png">
 
