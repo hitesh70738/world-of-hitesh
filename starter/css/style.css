@@ -19,7 +19,10 @@ header{
   /* border-style: dashed; */  
   font-size: 25px;
   background-color: #BA3B46;
-  
+  background-image: url("/starter/images/coding2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: %;
 }
 
 header h1 {
@@ -33,7 +36,7 @@ header nav {
   /* border-style: dotted; */
   float: right;
   padding-top: 80px;
-  font-size: 20px;
+  font-size: 40px;
   width: 45%;
   margin-right: 20px;
   list-style-type: none;
@@ -54,18 +57,17 @@ header nav a {
   color: #FFEEDB;
   /* border-style: dashed; */
   font-size: 50px;
-  background-color: #BA3B46;
   display: flex;
   justify-content: center;
   align-items: end;
   padding-bottom: 50px;
+  background-image: url("/starter/images/coding2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* removed #banner for h2 */
-.hero-banner img {
-  /* margin: auto; */
-  
-}
+
 
 /* .hero-banner #banner {
   display: flex;
@@ -76,8 +78,11 @@ header nav a {
 }  */
 
 main {
-  background-color: #BA3B46;
-  height: 1200px;
+  background-color: deepskyblue;
+  height: 1300px;
+  background-image: url("/starter/images/coding2.webp");
+  background-size: cover;
+  
 }
 
 /* .page-wrapper {
@@ -89,6 +94,9 @@ main {
 
 .page-section {
   display: flex;
+  font-style: italic;
+  /* text-decoration: underline;
+  text-decoration-color: #FFEEDB; */
   /* border-style: dotted; */
 }
 
@@ -100,6 +108,8 @@ main {
   font-size:50px;
   /* border-right: 2px solid black; */
   font-family: "Courier", "monospace";
+  text-decoration: underline;
+  text-decoration-color: #FFEEDB;
 }
 
 
@@ -210,6 +220,26 @@ main {
 .contact-info a{
   color: #FFEEDB;
 }
+
+/* Media Query for even smaller screens */
+@media only screen and (min-width: 500px) {
+  main {
+    background-size: cover !important;
+  }  
+}
+
+/* For mobile devices */
+@media (max-width: 999px) {
+  .work-card {
+    width: 100%;
+    }
+  } */
+
+@media (max-width: 767px) {
+  header nav {
+  width: 80%;
+  }
+  }
 
 
 h1,
