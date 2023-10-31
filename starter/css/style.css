@@ -19,7 +19,7 @@ header{
   color: #FFEEDB;
   font-size: 25px;
   background-color: #BA3B46;
-  background-image: url("/starter/images/coding2.webp");
+  background-image: url("../starter/images/coding2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: %;
