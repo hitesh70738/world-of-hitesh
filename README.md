@@ -18,6 +18,7 @@
 I used the activitys from the two weeks to help create the portfolio page. I have added comments to the code to help navigate through the code. 
 
 ## Github Pages Link
+https://hitesh70738.github.io/world-of-hitesh/
 
 
 ## Conclusion
