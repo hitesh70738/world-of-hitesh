@@ -54,7 +54,7 @@ header a {
   justify-content: center;
   align-items: end;
   padding-bottom: 50px;
-  background-image: url("/starter/images/coding2.webp");
+  background-image: url("../images/coding2.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -64,7 +64,7 @@ header a {
 main {
   background-color: deepskyblue;
   height: 1200px;
-  background-image: url("/starter/images/coding2.webp");
+  background-image: url("../images/coding2.webp");
   background-size: cover;
   
 }
